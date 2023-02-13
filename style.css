@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    animation: pulsingbg 2.5s infinite;
+}
+.centerdiv {
+    top: 50%;
+    left: 50%;
+    width: 30em;
+    margin-top: -9em;
+    margin-left: -15em;
+    position: fixed;
+
+}
+
+.centertext {
+    color: white;
+    text-align: center;
+    font-family: Garamond, serif;
+
+}
+
+.interactivebutton{
+    width: 4em;
+    height: 6vh;
+    border-radius: 12px;
+    animation-name: buttonanimation;
+    animation-duration: 1s;
+    background-color: white;
+    transition: 0.5s;   
+}
+
+.interactivebutton:hover {
+    background-color: rgb(190, 43, 43);
+}
+
+.centerbutton {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+
+@keyframes pulsingbg{
+    0% {background-color: #751010;}
+}
